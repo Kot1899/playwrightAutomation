@@ -1,9 +1,9 @@
 const { test, expect } = require('@playwright/test');
-const { checkImg2 } = require('./checkImg2'); 
-const { checkImg3 } = require('./checkImg3'); 
-const { checkImg4 } = require('./checkImg4'); 
-const { checkImg5 } = require('./checkImg5'); 
-const { checkLicense } = require('./license'); 
+const { checkImg2 } = require('../tests/checkImg2'); 
+const { checkImg3 } = require('../tests/checkImg3'); 
+const { checkImg4 } = require('../tests/checkImg4'); 
+const { checkImg5 } = require('../tests/checkImg5'); 
+const { checkLicense } = require('../tests/license'); 
 const exp = require('constants');
 
 const urls = [
