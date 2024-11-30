@@ -1,3 +1,4 @@
+
 const { test, expect } = require('@playwright/test');
 const { checkImg2 } = require('./checkImg2'); 
 const { checkImg3 } = require('./checkImg3'); 
